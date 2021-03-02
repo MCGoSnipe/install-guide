@@ -3,8 +3,7 @@
 ## Updating
 
 ```
-git fetch origin
-git reset --hard origin/main
+git pull
 go install gosnipe.go
 ```
 
