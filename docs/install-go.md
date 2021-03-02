@@ -30,7 +30,7 @@ Jump to:
 
 1. If not root, elevate to root with `sudo su`.
 2. `cd /tmp`
-3. `curl -o go.tar.gz https://golang.org/dl/go1.16.linux-amd64.tar.gz`
+3. `curl -o go.tar.gz https://dl.google.com/go/go1.16.linux-amd64.tar.gz`
 4. `tar -C /usr/local -xzf go.tar.gz`
 5. Log in as user you will be running GoSnipe as.
 6. `echo 'export PATH="$PATH:/usr/local/go/bin"' >> $HOME/.profile`
