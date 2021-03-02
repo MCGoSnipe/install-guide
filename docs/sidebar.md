@@ -1,4 +1,4 @@
  * [Welcome](/)
- * [Installing Go](/install-golang)
+ * [Installing Go](/install-go)
  * [Installing Git](/install-git)
  * [Installing GoSnipe](/install-gosnipe)
