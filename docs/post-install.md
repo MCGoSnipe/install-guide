@@ -3,8 +3,7 @@
 ## Updating
 
 ```
-git pull
-go install gosnipe.go
+go install github.com/MCGoSnipe/gosnipe@latest
 ```
 
 ## CLI Flags
