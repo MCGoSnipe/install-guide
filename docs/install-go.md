@@ -12,19 +12,24 @@ Jump to:
 
 1. Download the installer from [here](https://golang.org/dl/go1.16.windows-amd64.msi).
 2. Run the installer and install Go 1.16, following the prompts.
-3. Head over to [Installing Git](/install-git) to install Git.
+3. Add `%USERPROFILE%/go/bin` to `PATH` using `rundll32 sysdm.cpl,EditEnvironmentVariables`.
+4. Head over to [Installing Git](/install-git) to install Git.
 
 ## Mac OS (Intel/AMD64)
 
 1. Download the installer from [here](https://golang.org/dl/go1.16.darwin-amd64.pkg).
 2. Run the installer and install Go 1.16.
-3. Head over to [Installing Git](/install-git) to install Git.
+3. `echo 'export PATH="$PATH:/usr/local/go/bin"' >> $HOME/.bashrc`
+4. `echo 'export PATH="$PATH:$HOME/go/bin"' >> $HOME/.bashrc`
+5. Head over to [Installing Git](/install-git) to install Git.
 
 ## Mac OS (M1/ARM)
 
 1. Download the installer from [here](https://golang.org/dl/go1.16.darwin-arm64.pkg).
 2. Run the installer and install Go 1.16.
-3. Head over to [Installing Git](/install-git) to install Git.
+3. `echo 'export PATH="$PATH:/usr/local/go/bin"' >> $HOME/.bashrc`
+4. `echo 'export PATH="$PATH:$HOME/go/bin"' >> $HOME/.bashrc`
+5. Head over to [Installing Git](/install-git) to install Git.
 
 ## Linux (AMD64)
 
@@ -34,5 +39,6 @@ Jump to:
 4. `tar -C /usr/local -xzf go.tar.gz`
 5. Log in as user you will be running GoSnipe as.
 6. `echo 'export PATH="$PATH:/usr/local/go/bin"' >> $HOME/.profile`
-7. Relog or run `source $HOME/.profile`.
-8. Head over to [Installing Git](/install-git) to install Git.
+7. `echo 'export PATH="$PATH:$HOME/go/bin"' >> $HOME/.profile`
+8. Relog or run `source $HOME/.profile`.
+9. Head over to [Installing Git](/install-git) to install Git.
